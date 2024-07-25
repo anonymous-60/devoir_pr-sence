@@ -1,0 +1,75 @@
+1    AMBININTSOA Jonuca                              |__ 
+2    ANDRIAMAHEFA Alexandre Fandry                   |__ 
+3    ANDRIAMANDRATOMANANA Narindrantsoa              |__ 
+4    ANDRIANALIMANANA Finiavana Ambinintsoa          |__ 
+5    ANDRIANANDRAINA Maherisoa Fanasina              |__ 
+6    ANDRIANARIMINO Tahiry Ny Aina Lawrena           |__ 
+7    ANDRIANARIVO Lantoniaina Frederick              |__ 
+8    ANDRIANARIVONY Tsiky Fandresena                 |__ 
+9    ANDRIANJAFY RAMANAVAHY Miaritiana Emile         |__YES
+10    ANDRINOELY Mamy Fitiavana                       |__ 
+11    ANDRIANTSARA Mioty Alicia                       |__ 
+12    ANDRY TSIRESY ANDRIAMBONIHAJA Tomefy Ny Soa     |__ 
+13    ANJAMAHENINA Ella Gracia                        |__ 
+14    ANJARAVONJISOA Mandresy Clémence               |__ 
+15    FANANTENANA Valisoa Olivier Jeannet             |__ 
+16    FANIRIANTSOA Mampianina Lucia                   |__ 
+17    FYONONA Joseph Honora                           |__ 
+18    HARITSARA Mendrika Ny Avo Fiderana Lucas        |__ 
+19    HERIMANANTSOA Manitriniaina Christian           |__ 
+20    IGNACE Franckie Elia Virginie                   |__ 
+21    MAHARAVO Ny Ony Nandrianina                     |__ 
+22    MAMPIONONTSOA Mario                             |__ 
+23    MANDA Mahatoky                                  |__ 
+24    NIRINJANAHARY Anjaniaina                        |__ 
+25    NOMENA FITIA Famonjena                          |__ 
+26    PABLO Y ARIVO Hendrinimerina                    |__PERS
+27    RABENANDRASANA Hanitsoa Ayan                    |__ 
+28    RABESON Fanomezantsoa fenitra Emiliah           |__ 
+29    RAELISON Tanjona Zolalaina                      |__ 
+30    RAFANOMEZANTSOA Tolojanahary Jean Michel        |__ 
+31    RAHARINIRINA Nancia                             |__ 
+32    RAHERIJAONA Ambinintsoa Fifaliana               |__ 
+33    RAHERINIRINA Jean Mamitiana                     |__ 
+34    RAJOELINJANAHARINANTENAINA Fabien Halaby        |__ 
+35    RAKOTOARINTSOA Haja Andriamanantena             |__ 
+36    RAKOTOARISOA Harilala                           |__ 
+37    RAKOTOARISON Niaina Gilbert                     |__ 
+38    RAKOTOARIVELO Jean                              |__ 
+39    RAKOTOMAVO Miharisoa Sitraka Manambina          |__ 
+40    RAKOTONDRAFARA Ronhy Fetraniaina                |__ 
+41    RAKOTONDRAIBE Mihasintsoa Andria-Jaina Hosea    |__ 
+42    RAKOTONDRAZAFY Tahinandriamahery Isaia          |__ 
+43    RAKOTONIAINA Miantsatiana Emmanuella            |__ 
+44    RAKOTOZANANY Notahiana Vaniala                  |__ 
+45    RAMANANJATOVO Safidiniaina                      |__ 
+46    RAMANDIAMANANA Iavonirina Ambinintsoa           |__ 
+47    RAMINOARISOA Rojotiana Finaritra                |__ 
+48    RANAIVOTRIMO Baritahiana johnson                |__ 
+49    RANDIMBIMANANA Toky                             |__ 
+50    RANDRIAMANDIMBY Jocelyn Samuelson               |__ 
+51    RANDRIAMBOLOLONA Toky Mathieu                   |__ 
+52    RANDRIAMIARANA Andoniaina Steve                 |__ 
+53    RANDRIAMIHOATRA Mbolamamy Sergio                |__ 
+54    RANDRIANAIVO Sitrakiniaina Fitahiana Elysé     |__ 
+55    RANDRIANINDRINA Toky Jeanny                     |__ 
+56    RANDRIANIRINA Mitantsoa                         |__ 
+57    RASOLOFOARIVELO Mirado                          |__ 
+58    RATOTOARISON Safidi Alonso                      |__ 
+59    RAZAFIMAHARO Tiavina Herimiaina Gabrielle       |__ 
+60    RAZAFIMAHATRATRA Vahatriniaina Sylvio           |__ 
+61    RAZAFINARIVO Jean Roméo                        |__ 
+62    RAZAFINDRAKOTO Tantely Tiana                    |__ 
+63    RAZAFINDRAKOTO Zely Karen                       |__ 
+64    RAZAFITRIMO Tsifeherana Miranto                 |__ 
+65    RAZAKAMANANA Nasandratriniavo Heriniaina        |__ 
+66    RAZAKAMIADANA Manoa Fehizoro                    |__ 
+67    RAZAKANIRINA Andrianina Mathieu                 |__ 
+68    RAZANADRAKOTO Harifetra Angelo                  |__ 
+69    SEFOUDINE Adnan Jivanjy Fitiavana               |__ 
+70    HERIANDRISOA Ialy Mikajy Hasina                 |__ 
+71    RAZAKARIVONY Njarasoa Nombana                   |__ 
+72    RAZAFINDRAKOTO Lewis Benjamin                   |__ 
+73    SANDY Kathy                                     |__ 
+74    RAFIDISON Ananda Andriamihago                   |__ 
+75    ANDRIMALALA Ismaël                             |__ 
