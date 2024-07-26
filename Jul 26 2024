@@ -1,0 +1,84 @@
+<HTML>
+	<HEAD>
+		<TITLE>L1</TITLE>
+</HEAD>
+	<BODY bgcolor="white" ><FONT COLOR="black">
+	<TABLE border="2"><TR><TD>N°</TD>    <TD>Nom et Prénoms</TD> <TD>Présence</TD><TR><TD>1</TD>    <TD>AMBININTSOA Jonuca</TD>                              <TD> </TD></TR>
+<TR><TD>2</TD>    <TD>ANDRIAMAHEFA Alexandre Fandry</TD>                   <TD> </TD></TR>
+<TR><TD>3</TD>    <TD>ANDRIAMANDRATOMANANA Narindrantsoa</TD>              <TD> </TD></TR>
+<TR><TD>4</TD>    <TD>ANDRIANALIMANANA Finiavana Ambinintsoa</TD>          <TD> </TD></TR>
+<TR><TD>5</TD>    <TD>ANDRIANANDRAINA Maherisoa Fanasina</TD>              <TD> </TD></TR>
+<TR><TD>6</TD>    <TD>ANDRIANARIMINO Tahiry Ny Aina Lawrena</TD>           <TD> </TD></TR>
+<TR><TD>7</TD>    <TD>ANDRIANARIVO Lantoniaina Frederick</TD>              <TD> </TD></TR>
+<TR><TD>8</TD>    <TD>ANDRIANARIVONY Tsiky Fandresena</TD>                 <TD> </TD></TR>
+<TR><TD>9</TD>    <TD>ANDRIANJAFY RAMANAVAHY Miaritiana Emile</TD>         <TD> </TD></TR>
+<TR><TD>10</TD>    <TD>ANDRINOELY Mamy Fitiavana</TD>                       <TD>YES</TD></TR>
+<TR><TD>11</TD>    <TD>ANDRIANTSARA Mioty Alicia</TD>                       <TD> </TD></TR>
+<TR><TD>12</TD>    <TD>ANDRY TSIRESY ANDRIAMBONIHAJA Tomefy Ny Soa</TD>     <TD> </TD></TR>
+<TR><TD>13</TD>    <TD>ANJAMAHENINA Ella Gracia</TD>                        <TD> </TD></TR>
+<TR><TD>14</TD>    <TD>ANJARAVONJISOA Mandresy Clémence</TD>               <TD>YES</TD></TR>
+<TR><TD>15</TD>    <TD>FANANTENANA Valisoa Olivier Jeannet</TD>             <TD> </TD></TR>
+<TR><TD>16</TD>    <TD>FANIRIANTSOA Mampianina Lucia</TD>                   <TD> </TD></TR>
+<TR><TD>17</TD>    <TD>FYONONA Joseph Honora</TD>                           <TD> </TD></TR>
+<TR><TD>18</TD>    <TD>HARITSARA Mendrika Ny Avo Fiderana Lucas</TD>        <TD> </TD></TR>
+<TR><TD>19</TD>    <TD>HERIMANANTSOA Manitriniaina Christian</TD>           <TD> </TD></TR>
+<TR><TD>20</TD>    <TD>IGNACE Franckie Elia Virginie</TD>                   <TD> </TD></TR>
+<TR><TD>21</TD>    <TD>MAHARAVO Ny Ony Nandrianina</TD>                     <TD> </TD></TR>
+<TR><TD>22</TD>    <TD>MAMPIONONTSOA Mario</TD>                             <TD> </TD></TR>
+<TR><TD>23</TD>    <TD>MANDA Mahatoky</TD>                                  <TD> </TD></TR>
+<TR><TD>24</TD>    <TD>NIRINJANAHARY Anjaniaina</TD>                        <TD> </TD></TR>
+<TR><TD>25</TD>    <TD>NOMENA FITIA Famonjena</TD>                          <TD> </TD></TR>
+<TR><TD>26</TD>    <TD>PABLO Y ARIVO Hendrinimerina</TD>                    <TD> </TD></TR>
+<TR><TD>27</TD>    <TD>RABENANDRASANA Hanitsoa Ayan</TD>                    <TD> </TD></TR>
+<TR><TD>28</TD>    <TD>RABESON Fanomezantsoa fenitra Emiliah</TD>           <TD> </TD></TR>
+<TR><TD>29</TD>    <TD>RAELISON Tanjona Zolalaina</TD>                      <TD> </TD></TR>
+<TR><TD>30</TD>    <TD>RAFANOMEZANTSOA Tolojanahary Jean Michel</TD>        <TD> </TD></TR>
+<TR><TD>31</TD>    <TD>RAHARINIRINA Nancia</TD>                             <TD> </TD></TR>
+<TR><TD>32</TD>    <TD>RAHERIJAONA Ambinintsoa Fifaliana</TD>               <TD> </TD></TR>
+<TR><TD>33</TD>    <TD>RAHERINIRINA Jean Mamitiana</TD>                     <TD> </TD></TR>
+<TR><TD>34</TD>    <TD>RAJOELINJANAHARINANTENAINA Fabien Halaby</TD>        <TD> </TD></TR>
+<TR><TD>35</TD>    <TD>RAKOTOARINTSOA Haja Andriamanantena</TD>             <TD> </TD></TR>
+<TR><TD>36</TD>    <TD>RAKOTOARISOA Harilala</TD>                           <TD> </TD></TR>
+<TR><TD>37</TD>    <TD>RAKOTOARISON Niaina Gilbert</TD>                     <TD> </TD></TR>
+<TR><TD>38</TD>    <TD>RAKOTOARIVELO Jean</TD>                              <TD> </TD></TR>
+<TR><TD>39</TD>    <TD>RAKOTOMAVO Miharisoa Sitraka Manambina</TD>          <TD> </TD></TR>
+<TR><TD>40</TD>    <TD>RAKOTONDRAFARA Ronhy Fetraniaina</TD>                <TD> </TD></TR>
+<TR><TD>41</TD>    <TD>RAKOTONDRAIBE Mihasintsoa Andria-Jaina Hosea</TD>    <TD> </TD></TR>
+<TR><TD>42</TD>    <TD>RAKOTONDRAZAFY Tahinandriamahery Isaia</TD>          <TD> </TD></TR>
+<TR><TD>43</TD>    <TD>RAKOTONIAINA Miantsatiana Emmanuella</TD>            <TD> </TD></TR>
+<TR><TD>44</TD>    <TD>RAKOTOZANANY Notahiana Vaniala</TD>                  <TD> </TD></TR>
+<TR><TD>45</TD>    <TD>RAMANANJATOVO Safidiniaina</TD>                      <TD> </TD></TR>
+<TR><TD>46</TD>    <TD>RAMANDIAMANANA Iavonirina Ambinintsoa</TD>           <TD> </TD></TR>
+<TR><TD>47</TD>    <TD>RAMINOARISOA Rojotiana Finaritra</TD>                <TD> </TD></TR>
+<TR><TD>48</TD>    <TD>RANAIVOTRIMO Baritahiana johnson</TD>                <TD> </TD></TR>
+<TR><TD>49</TD>    <TD>RANDIMBIMANANA Toky</TD>                             <TD> </TD></TR>
+<TR><TD>50</TD>    <TD>RANDRIAMANDIMBY Jocelyn Samuelson</TD>               <TD> </TD></TR>
+<TR><TD>51</TD>    <TD>RANDRIAMBOLOLONA Toky Mathieu</TD>                   <TD> </TD></TR>
+<TR><TD>52</TD>    <TD>RANDRIAMIARANA Andoniaina Steve</TD>                 <TD> </TD></TR>
+<TR><TD>53</TD>    <TD>RANDRIAMIHOATRA Mbolamamy Sergio</TD>                <TD> </TD></TR>
+<TR><TD>54</TD>    <TD>RANDRIANAIVO Sitrakiniaina Fitahiana Elysé</TD>     <TD> </TD></TR>
+<TR><TD>55</TD>    <TD>RANDRIANINDRINA Toky Jeanny</TD>                     <TD> </TD></TR>
+<TR><TD>56</TD>    <TD>RANDRIANIRINA Mitantsoa</TD>                         <TD> </TD></TR>
+<TR><TD>57</TD>    <TD>RASOLOFOARIVELO Mirado</TD>                          <TD> </TD></TR>
+<TR><TD>58</TD>    <TD>RATOTOARISON Safidi Alonso</TD>                      <TD> </TD></TR>
+<TR><TD>59</TD>    <TD>RAZAFIMAHARO Tiavina Herimiaina Gabrielle</TD>       <TD> </TD></TR>
+<TR><TD>60</TD>    <TD>RAZAFIMAHATRATRA Vahatriniaina Sylvio</TD>           <TD> </TD></TR>
+<TR><TD>61</TD>    <TD>RAZAFINARIVO Jean Roméo</TD>                        <TD> </TD></TR>
+<TR><TD>62</TD>    <TD>RAZAFINDRAKOTO Tantely Tiana</TD>                    <TD> </TD></TR>
+<TR><TD>63</TD>    <TD>RAZAFINDRAKOTO Zely Karen</TD>                       <TD> </TD></TR>
+<TR><TD>64</TD>    <TD>RAZAFITRIMO Tsifeherana Miranto</TD>                 <TD> </TD></TR>
+<TR><TD>65</TD>    <TD>RAZAKAMANANA Nasandratriniavo Heriniaina</TD>        <TD> </TD></TR>
+<TR><TD>66</TD>    <TD>RAZAKAMIADANA Manoa Fehizoro</TD>                    <TD> </TD></TR>
+<TR><TD>67</TD>    <TD>RAZAKANIRINA Andrianina Mathieu</TD>                 <TD> </TD></TR>
+<TR><TD>68</TD>    <TD>RAZANADRAKOTO Harifetra Angelo</TD>                  <TD> </TD></TR>
+<TR><TD>69</TD>    <TD>SEFOUDINE Adnan Jivanjy Fitiavana</TD>               <TD> </TD></TR>
+<TR><TD>70</TD>    <TD>HERIANDRISOA Ialy Mikajy Hasina</TD>                 <TD> </TD></TR>
+<TR><TD>71</TD>    <TD>RAZAKARIVONY Njarasoa Nombana</TD>                   <TD> </TD></TR>
+<TR><TD>72</TD>    <TD>RAZAFINDRAKOTO Lewis Benjamin</TD>                   <TD> </TD></TR>
+<TR><TD>73</TD>    <TD>SANDY Kathy</TD>                                     <TD> </TD></TR>
+<TR><TD>74</TD>    <TD>RAFIDISON Ananda Andriamihago</TD>                   <TD> </TD></TR>
+<TR><TD>75</TD>    <TD>ANDRIMALALA Ismaël</TD>                             <TD> </TD></TR>
+
+	</TABLE></FONT>
+	</BODY>
+</HTML>
