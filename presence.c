@@ -3,6 +3,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include "presence.h"
+#include <ctype.h>
+
 
 void deco(int nombre)
 {
@@ -30,6 +32,31 @@ void design()
 		printf("\n");
 	}
 }
+void recherche(FILE*fichier,int nombre_eleve)
+{
+	int i;
+	char chaine[255],chaine_cherche[255],chaine_minuscule[255];
+	char*suite_chaine;
+	fichier=fopen("list.txt","r");
+	printf("\nEntrez le nom ou le numero de l'etudiant à rechercher :");
+	scanf("%s", chaine_cherche);
+	for (int i=0;i<=strlen(chaine);++i)
+	{
+		chaine_cherche[i]=tolower(chaine_cherche[i]);
+	}
+	for(i=0; i<nombre_eleve; i++)
+	{
+		fgets(chaine, sizeof(chaine), fichier);
+		for (int j=0;j<=sizeof(chaine);j++)
+		{
+			chaine_minuscule[j] = tolower(chaine[j]);
+		}
+		suite_chaine=strstr(chaine_minuscule,chaine_cherche);
+		if(suite_chaine!=NULL)
+			printf("\033[1;36m%s\033[0m",chaine);
+	}
+}
+
 void coding(FILE* file, student* mit)
 {
 	int retour;
@@ -41,6 +68,9 @@ void coding(FILE* file, student* mit)
 	char line[MAX_SIZE];
 	char ret[MAX_SIZE];
 	char menu[MAX_SIZE];
+	FILE* file2;
+	FILE* file3;
+	int a=effectif_eleve(file3);
 	do
 	{
 		FILE* file1 = NULL;
@@ -48,6 +78,16 @@ void coding(FILE* file, student* mit)
 		file = fopen("list1.html", "w");
 		do
 		{
+			do
+			{
+				printf("1.Search information\n2.Check the pc by number\n");
+				scanf("%d", &i);
+			}while(i!=1 && i!=2);
+			if(i==1)
+			{
+				recherche(file2,a);
+			}
+
 			printf("type the number of the student: ");
 			scanf("%d", &numero);
 			if(numero<1 || numero>75)
@@ -165,23 +205,36 @@ void restruct(FILE* file, student* mit)
 }
 void presence(FILE* file, student* mit, char* choice)
 {
+	FILE*fic=NULL;
 	int i;
-	printf("Do a choice\n");
-	design();
-	printf("\033[1mYOUR CHOICE\033[0m:");
-	scanf("%s", choice);
-	if(strcmp(choice, "1") == 0 || strcmp(choice, "un") == 0)
-	{
-		restruct(file, mit);
-	}
-	if(strcmp(choice, "2") == 0 || strcmp(choice, "deux") == 0)
-	{
+	fic=fopen("sauvegarde.txt","r");
+	if(fic==NULL){
 		for(i = 0; i<75; i++)
 		{
 			strcpy(mit[i].use, " ");
 		}
-		remove("sauvegarde.txt");
 		coding(file, mit);
+		fclose(fic);
+	}
+	else
+	{
+		printf("Do a choice\n");
+		design();
+		printf("\033[1mYOUR CHOICE\033[0m:");
+		scanf("%s", choice);
+		if(strcmp(choice, "1") == 0 || strcmp(choice, "un") == 0)
+		{
+			restruct(file, mit);
+		}
+		if(strcmp(choice, "2") == 0 || strcmp(choice, "deux") == 0)
+		{
+			for(i = 0; i<75; i++)
+			{
+				strcpy(mit[i].use, " ");
+			}
+			remove("sauvegarde.txt");
+			coding(file, mit);
+		}
 	}
 }
 void structuring(FILE* file, student* mit)
@@ -260,42 +313,67 @@ void menu_fonction(char* menu)
 	//Menu
 	deco(number);
 	printf("\033[35m*\033[0m\033[1m1.View student list\033[0m        \033[35m*\033[0m\n");
-	deco(number);
-	printf("\033[35m*\033[0m\033[1m2.Search by name\033[0m           \033[35m*\033[0m\n");
-	deco(number);
-	printf("\033[35m*\033[0m\033[1m3.Search by number\033[0m         \033[35m*\033[0m\n");
-	deco(number);
-	printf("\033[35m*\033[0m\033[1m4.Search by number and name\033[0m\033[35m*\033[0m\n");
-	deco(number);
-	printf("\033[35m*\033[0m\033[1m5.Quit\033[0m                     \033[35m*\033[0m\n");
-	deco(number);
-	printf("\n\033[1;32mChoose from these five options\033[0m: ");
+	printf("\033[35m*\033[0m\033[1m2.Check pc\033[0m           \033[35m*\033[0m\n");
+	printf("\033[35m*\033[0m\033[1m3.Save\033[0m         \033[35m*\033[0m\n");
+	printf("\033[35m*\033[0m\033[1m4.Quit\033[0m                     \033[35m*\033[0m\n");
+	printf("\n\033[1;32mChoose from these four options\033[0m: ");
 	scanf("%s",menu);
 }
 
 void attendance_fonction(FILE* file, char* line, char* ret, char* menu, student* mit, char* choice)
 {
-	system("clear");
-	do
-	{
-		menu_fonction(menu);
-		strcat(ret, "a");
-		//Instruction for each choice
-		if(strcmp(menu, "1") == 0 ||strcmp(menu, "un") == 0 )
+	debut:
+		system("clear");
+		do
 		{
-			view_list(file,line, ret);
-			if(strcmp(ret, "1") == 0 || strcmp(ret, "un") == 0)
+			menu_fonction(menu);
+			strcat(ret, "a");
+			//Instruction for each choice
+			if(strcmp(menu, "1") == 0 ||strcmp(menu, "un") == 0 )
 			{
+				view_list(file,line, ret);
+				if(strcmp(ret, "1") == 0 || strcmp(ret, "un") == 0)
+				{
+					system("clear");
+				}
+				else if(strcmp(ret, "2") == 0 || strcmp(ret, "deux") == 0)
+				{
+					exit(EXIT_SUCCESS);
+				}
+			}
+			if(strcmp(menu, "2") == 0 || strcmp(menu, "deux") == 0)
+			{
+				by_number(file,mit, choice);
+			}
+			if(strcmp(menu, "3") == 0 || strcmp(menu, "trois") == 0)
+			{
+				rename("list1.html",__DATE__);
+				printf("Le fichier est bien sauvegarder sous le nom de %s",__DATE__);
+				remove("sauvegarde.txt");
+				sleep(1);
 				system("clear");
+				goto debut;
 			}
-			else if(strcmp(ret, "2") == 0 || strcmp(ret, "deux") == 0)
-			{
-				exit(EXIT_SUCCESS);
-			}
-		}
-		if(strcmp(menu, "3") == 0 || strcmp(menu, "trois") == 0)
+		}while(strcmp(ret, "1") == 0 || strcmp(ret, "un") == 0);
+}
+
+int effectif_eleve(FILE*fichier)
+{
+	int nbre;
+	char chaine[255];
+	fichier=fopen("list.txt","r");
+	if(fichier==NULL)
+	{
+		perror("fopen");
+		exit(EXIT_FAILURE);
+	}
+	else
+	{
+		while(fgets(chaine,sizeof(chaine),fichier)!=NULL)
 		{
-			by_number(file,mit, choice);
+			nbre++;
 		}
-	}while(strcmp(ret, "1") == 0 || strcmp(ret, "un") == 0);
+		return nbre;
+		fclose(fichier);
+	}
 }
