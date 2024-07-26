@@ -19,6 +19,7 @@ typedef struct eleve
     char use[USE];
 }student;
 
+int effectif_eleve(FILE*fichier);
 //Design
 void deco(int nombre);
 void menu_fonction(char* menu);
@@ -36,3 +37,6 @@ void coding(FILE* file, student* mit);
 //Make the presence by searching from the student number
 void by_number(FILE* file, student* mit, char* choice);
 void attendance_fonction(FILE* file, char* line, char* ret,char* menu, student* mit, char* choice);
+void search();
+void recherche(FILE*fichier,int nombre_eleve);
+int effectif_eleve(FILE*fichier);
